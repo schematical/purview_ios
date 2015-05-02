@@ -12,10 +12,18 @@ import UIKit
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
-
-
+    var mainNavigationController : UINavigationController?
+    
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
-        // Override point for customization after application launch.
+        
+        self.mainNavigationController = UINavigationController()
+        var mainVC = MainARViewController()
+        self.mainNavigationController?.pushViewController(mainVC, animated: true)
+        
+        self.window = UIWindow(frame: UIScreen.mainScreen().bounds)
+        self.window!.rootViewController = self.mainNavigationController
+        self.window?.makeKeyAndVisible()
+        
         return true
     }
 
