@@ -1,0 +1,424 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F6FB42ED1AF5553F00A514E7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6FB42EC1AF5553F00A514E7 /* AppDelegate.swift */; };
+		F6FB42EF1AF5553F00A514E7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6FB42EE1AF5553F00A514E7 /* ViewController.swift */; };
+		F6FB42F21AF5553F00A514E7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F6FB42F01AF5553F00A514E7 /* Main.storyboard */; };
+		F6FB42F41AF5553F00A514E7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F6FB42F31AF5553F00A514E7 /* Images.xcassets */; };
+		F6FB42F71AF5553F00A514E7 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F6FB42F51AF5553F00A514E7 /* LaunchScreen.xib */; };
+		F6FB43031AF5553F00A514E7 /* Purview_nycTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6FB43021AF5553F00A514E7 /* Purview_nycTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F6FB42FD1AF5553F00A514E7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F6FB42DF1AF5553F00A514E7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F6FB42E61AF5553F00A514E7;
+			remoteInfo = Purview.nyc;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F6FB42E71AF5553F00A514E7 /* Purview.nyc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Purview.nyc.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6FB42EB1AF5553F00A514E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F6FB42EC1AF5553F00A514E7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F6FB42EE1AF5553F00A514E7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F6FB42F11AF5553F00A514E7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F6FB42F31AF5553F00A514E7 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F6FB42F61AF5553F00A514E7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		F6FB42FC1AF5553F00A514E7 /* Purview.nycTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Purview.nycTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6FB43011AF5553F00A514E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F6FB43021AF5553F00A514E7 /* Purview_nycTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Purview_nycTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F6FB42E41AF5553F00A514E7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6FB42F91AF5553F00A514E7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F6FB42DE1AF5553F00A514E7 = {
+			isa = PBXGroup;
+			children = (
+				F6FB42E91AF5553F00A514E7 /* Purview.nyc */,
+				F6FB42FF1AF5553F00A514E7 /* Purview.nycTests */,
+				F6FB42E81AF5553F00A514E7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F6FB42E81AF5553F00A514E7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F6FB42E71AF5553F00A514E7 /* Purview.nyc.app */,
+				F6FB42FC1AF5553F00A514E7 /* Purview.nycTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F6FB42E91AF5553F00A514E7 /* Purview.nyc */ = {
+			isa = PBXGroup;
+			children = (
+				F6FB42EC1AF5553F00A514E7 /* AppDelegate.swift */,
+				F6FB42EE1AF5553F00A514E7 /* ViewController.swift */,
+				F6FB42F01AF5553F00A514E7 /* Main.storyboard */,
+				F6FB42F31AF5553F00A514E7 /* Images.xcassets */,
+				F6FB42F51AF5553F00A514E7 /* LaunchScreen.xib */,
+				F6FB42EA1AF5553F00A514E7 /* Supporting Files */,
+			);
+			path = Purview.nyc;
+			sourceTree = "<group>";
+		};
+		F6FB42EA1AF5553F00A514E7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F6FB42EB1AF5553F00A514E7 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F6FB42FF1AF5553F00A514E7 /* Purview.nycTests */ = {
+			isa = PBXGroup;
+			children = (
+				F6FB43021AF5553F00A514E7 /* Purview_nycTests.swift */,
+				F6FB43001AF5553F00A514E7 /* Supporting Files */,
+			);
+			path = Purview.nycTests;
+			sourceTree = "<group>";
+		};
+		F6FB43001AF5553F00A514E7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F6FB43011AF5553F00A514E7 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F6FB42E61AF5553F00A514E7 /* Purview.nyc */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F6FB43061AF5553F00A514E7 /* Build configuration list for PBXNativeTarget "Purview.nyc" */;
+			buildPhases = (
+				F6FB42E31AF5553F00A514E7 /* Sources */,
+				F6FB42E41AF5553F00A514E7 /* Frameworks */,
+				F6FB42E51AF5553F00A514E7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Purview.nyc;
+			productName = Purview.nyc;
+			productReference = F6FB42E71AF5553F00A514E7 /* Purview.nyc.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F6FB42FB1AF5553F00A514E7 /* Purview.nycTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F6FB43091AF5553F00A514E7 /* Build configuration list for PBXNativeTarget "Purview.nycTests" */;
+			buildPhases = (
+				F6FB42F81AF5553F00A514E7 /* Sources */,
+				F6FB42F91AF5553F00A514E7 /* Frameworks */,
+				F6FB42FA1AF5553F00A514E7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F6FB42FE1AF5553F00A514E7 /* PBXTargetDependency */,
+			);
+			name = Purview.nycTests;
+			productName = Purview.nycTests;
+			productReference = F6FB42FC1AF5553F00A514E7 /* Purview.nycTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F6FB42DF1AF5553F00A514E7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = 100x;
+				TargetAttributes = {
+					F6FB42E61AF5553F00A514E7 = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+					F6FB42FB1AF5553F00A514E7 = {
+						CreatedOnToolsVersion = 6.3.1;
+						TestTargetID = F6FB42E61AF5553F00A514E7;
+					};
+				};
+			};
+			buildConfigurationList = F6FB42E21AF5553F00A514E7 /* Build configuration list for PBXProject "Purview.nyc" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F6FB42DE1AF5553F00A514E7;
+			productRefGroup = F6FB42E81AF5553F00A514E7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F6FB42E61AF5553F00A514E7 /* Purview.nyc */,
+				F6FB42FB1AF5553F00A514E7 /* Purview.nycTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F6FB42E51AF5553F00A514E7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6FB42F21AF5553F00A514E7 /* Main.storyboard in Resources */,
+				F6FB42F71AF5553F00A514E7 /* LaunchScreen.xib in Resources */,
+				F6FB42F41AF5553F00A514E7 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6FB42FA1AF5553F00A514E7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F6FB42E31AF5553F00A514E7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6FB42EF1AF5553F00A514E7 /* ViewController.swift in Sources */,
+				F6FB42ED1AF5553F00A514E7 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6FB42F81AF5553F00A514E7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6FB43031AF5553F00A514E7 /* Purview_nycTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F6FB42FE1AF5553F00A514E7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F6FB42E61AF5553F00A514E7 /* Purview.nyc */;
+			targetProxy = F6FB42FD1AF5553F00A514E7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F6FB42F01AF5553F00A514E7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F6FB42F11AF5553F00A514E7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F6FB42F51AF5553F00A514E7 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F6FB42F61AF5553F00A514E7 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F6FB43041AF5553F00A514E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F6FB43051AF5553F00A514E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F6FB43071AF5553F00A514E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Purview.nyc/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F6FB43081AF5553F00A514E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Purview.nyc/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F6FB430A1AF5553F00A514E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = Purview.nycTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Purview.nyc.app/Purview.nyc";
+			};
+			name = Debug;
+		};
+		F6FB430B1AF5553F00A514E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = Purview.nycTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Purview.nyc.app/Purview.nyc";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F6FB42E21AF5553F00A514E7 /* Build configuration list for PBXProject "Purview.nyc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F6FB43041AF5553F00A514E7 /* Debug */,
+				F6FB43051AF5553F00A514E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F6FB43061AF5553F00A514E7 /* Build configuration list for PBXNativeTarget "Purview.nyc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F6FB43071AF5553F00A514E7 /* Debug */,
+				F6FB43081AF5553F00A514E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F6FB43091AF5553F00A514E7 /* Build configuration list for PBXNativeTarget "Purview.nycTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F6FB430A1AF5553F00A514E7 /* Debug */,
+				F6FB430B1AF5553F00A514E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F6FB42DF1AF5553F00A514E7 /* Project object */;
+}
